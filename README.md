@@ -20,19 +20,6 @@ Running the Chatbot: Run the script, and the chatbot will start interacting with
 
 User Input: You can input text prompts, questions, or statements as the user. The chatbot will respond based on the input you provide.
 
-Example Usage
-Here's an example of how to use the chatbot:
-
-python
-Copy code
-if __name__ == "__main__":
-  while True:
-    user_input = input("You: ")
-    if user_input.lower() in ["quit", "bye", "stop", "exit"]:
-      break
-
-    response = chat_with_gpt(user_input)
-    print("Chatbot: ", response)
     
 ### Important Notes
 API Key Security: Keep your API key secure and do not share it publicly. Treat it as sensitive information.
