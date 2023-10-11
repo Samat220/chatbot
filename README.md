@@ -1,7 +1,8 @@
-Introduction
+# Introduction
+
 This README provides an overview of the chatbot you've created using OpenAI's GPT-3.5 Turbo model. The chatbot utilizes OpenAI's API to have text-based conversations with users.
 
-Prerequisites
+# Prerequisites
 Before you can run this chatbot, you'll need to ensure you have the following prerequisites in place:
 
 OpenAI API Key: You must have an API key from OpenAI, which you should set in the openai.api_key variable within your code.
@@ -32,15 +33,16 @@ if __name__ == "__main__":
 
     response = chat_with_gpt(user_input)
     print("Chatbot: ", response)
-Important Notes
+    
+### Important Notes
 API Key Security: Keep your API key secure and do not share it publicly. Treat it as sensitive information.
 
 API Usage Cost: Be aware that using OpenAI's GPT-3.5 Turbo model through the API may incur usage costs based on OpenAI's pricing model. Ensure you are aware of and agree to the pricing terms.
 
-Customization
+### Customization
 You can customize the chatbot's behavior by modifying the chat_with_gpt function and the conversation format in the messages list. You can also fine-tune the model to better suit your specific use case.
 
-Resources
+### Resources
 OpenAI API Documentation: For more details on using OpenAI's API, refer to the official documentation.
 License
 This chatbot code is provided under the terms of the MIT License. See the LICENSE file for more details.
